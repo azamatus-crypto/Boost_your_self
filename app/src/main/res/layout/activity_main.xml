@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:contentDescription="@string/economics"
+        android:id="@+id/imageVieweconomicks"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/economicks" />
+
+    <TextView
+        android:onClick="onCklickeconomicks"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/textViewtitleeconomics"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/boost_your_self_in_economics"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageVieweconomicks" />
+
+    <androidx.constraintlayout.widget.Guideline
+        app:layout_constraintGuide_percent="0.5"
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ImageView
+        android:id="@+id/imageViewpsyhology"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageVieweconomicks"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/psyhology" />
+
+    <TextView
+        android:onClick="onCklickpsyhology"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/textViewtitlePsyhology"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/boost_your_self_in_psyhology"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewpsyhology" />
+
+    <ImageView
+        android:id="@+id/imageViewcomunication"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtitleeconomics"
+        tools:srcCompat="@drawable/comunication" />
+
+    <ImageView
+        android:id="@+id/imageViewconfidence"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewcomunication"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtitlePsyhology"
+        tools:srcCompat="@drawable/confidence" />
+
+    <TextView
+        android:onClick="onCklickcomunication"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/textViewtitlecomunication"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/boost_your_self_in_comunication"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewcomunication" />
+
+    <TextView
+        android:onClick="onCklickconfidience"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/textViewboostconfidence"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/boost_your_self_confidence"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewconfidence" />
+
+    <ImageView
+        android:id="@+id/imageViewbody"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtitlecomunication"
+        tools:srcCompat="@drawable/boudy" />
+
+    <TextView
+        android:onClick="onCklickbody"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/textViewbody"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/boost_your_body_transform_it"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewbody" />
+
+    <ImageView
+        android:id="@+id/imageViewsex"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewbody"
+        app:layout_constraintTop_toBottomOf="@+id/textViewboostconfidence"
+        tools:srcCompat="@drawable/opositesex" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:onClick="oncKlickrelations"
+        android:text="@string/boost_your_relationship_with_male_female"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewsex" />
+
+    <ImageView
+        android:id="@+id/imageViewcharizm"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewbody"
+        tools:srcCompat="@drawable/charisma" />
+
+    <TextView
+        android:onClick="onCklickCharizma"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/textViewcharisma"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/boost_your_charisma"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewcharizm" />
+
+    <ImageView
+        android:id="@+id/imageViewpapers"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toEndOf="@+id/imageViewcharizm"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:srcCompat="@drawable/financialstatus" />
+
+    <TextView
+        android:onClick="onCklickFinancials"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/textViewpapers"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/boost_you_financial_status"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewpapers" />
+  <androidx.cardview.widget.CardView
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewcharisma"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="4dp"
+      android:padding="4dp">
+    <TextView
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/textViewsoviet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/be_patient_boost_your_self_and_you_will_change_your_world_will_change"
+        android:textSize="24sp"/>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

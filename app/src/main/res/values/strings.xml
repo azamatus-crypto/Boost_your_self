@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Boost your self</string>
+    <string name="economics">economics</string>
+    <string name="be_patient_boost_your_self_and_you_will_change_your_world_will_change">Be patient ,boost your self and you will change,your world will change</string>
+    <string name="boost_you_financial_status">Boost you financial status</string>
+    <string name="boost_your_charisma">Boost your charisma</string>
+    <string name="boost_your_relationship_with_male_female">Boost your relationship with male/female</string>
+    <string name="boost_your_body_transform_it">Boost your body,transform it</string>
+    <string name="boost_your_self_confidence">Boost your self-confidence</string>
+    <string name="boost_your_self_in_comunication">Boost your self in comunication</string>
+    <string name="boost_your_self_in_psyhology">Boost your self in Psyhology</string>
+    <string name="boost_your_self_in_economics">Boost your self in economics</string>
+</resources>
